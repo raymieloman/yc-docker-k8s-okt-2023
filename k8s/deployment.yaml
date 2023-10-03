@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hello-nginx
+  name: hello-nginx
+  namespace: yc
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-nginx
+  template:
+    metadata:
+      labels:
+        app: hello-nginx
+    spec:
+      containers:
+      - image: rloman/hello-nginx:latest
+        name: hello-nginx
+        ports:
+        - containerPort: 80

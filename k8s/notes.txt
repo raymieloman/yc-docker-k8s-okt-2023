@@ -1,0 +1,2 @@
+deze link legt uit dat het nogal verwarrend is of je wel of niet in of op het cluster zit:
+https://github.com/canonical/microk8s/issues/936
