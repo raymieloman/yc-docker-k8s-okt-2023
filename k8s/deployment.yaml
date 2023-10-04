@@ -6,7 +6,6 @@ metadata:
   name: hello-nginx
   namespace: yc
 spec:
-  replicas: 3
   selector:
     matchLabels:
       app: hello-nginx
