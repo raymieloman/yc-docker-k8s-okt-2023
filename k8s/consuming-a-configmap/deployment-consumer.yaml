@@ -17,6 +17,13 @@ spec:
     spec:
       containers:
       - image: nginx:latest
+        env:
+        - name: username
+          valueFrom:
+           configMapKeyRef:
+             name: myconfigmap
+             key: username
+             optional: false
         name: nginx
         ports:
         - containerPort: 80
