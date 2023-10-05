@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx-consuming-a-configmap
+  name: nginx-consuming-a-configmap
+  namespace: yc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-consuming-a-configmap
+  template:
+    metadata:
+      labels:
+        app: nginx-consuming-a-configmap
+    spec:
+      containers:
+      - image: nginx:latest
+        name: nginx
+        ports:
+        - containerPort: 80
+        env:
+        - name: username
+          valueFrom:
+           configMapKeyRef:
+             name: myconfigmap
+             key: username
+             optional: false
+        - name: password
+          valueFrom:
+           configMapKeyRef:
+             name: myconfigmap
+             key: password
+             optional: false        
