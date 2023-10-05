@@ -17,6 +17,9 @@ spec:
     spec:
       containers:
       - image: nginx:latest
+        name: nginx
+        ports:
+        - containerPort: 80
         env:
         - name: username
           valueFrom:
@@ -29,7 +32,4 @@ spec:
            configMapKeyRef:
              name: myconfigmap
              key: password
-             optional: false
-        name: nginx
-        ports:
-        - containerPort: 80
+             optional: false        
