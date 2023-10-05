@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  password: vrijdagmiddag
+  username: rloman
+kind: ConfigMap
+metadata:
+  name: myconfigmap
