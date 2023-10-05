@@ -1,0 +1,89 @@
+:toc: right
+:toclevels: 1
+:sectnums:
+:sectnumlevels: 3
+:docinfo2:
+:linkattrs:
+:imagesdir: images
+
+= Demo page
+{docDate}
+
+== Pre Training
+.Prerequisites
+* Installed IntelliJ IDEA with Kotlin 1.8+ support
+
+.Pomodoro technique modified for this days
+* 15 minutes theory, demo or exercise
+* 0,1,2 minute[s] break
+* Then small recap about current topic
+* WTP: At the end of the day personal study to recap some topics
+** Free hacking on topics you find hard or nice :-)
+** You might try the link:https://kotlinlang.org/docs/koans.html[Kotlin Koans, window=_blank] during the self study time
+
+== Release notes
+
+.v1.2.0 (26-09-2023)
+[%collapsible]
+====
+* Change order of slides
+* Add intermezzo inline class
+* Explain Coroutines::CancellationException
+====
+
+.v1.1.0 (20-09-2023)
+[%collapsible]
+====
+* Add miscellaneous
+* Add links to quiz and certification
+* Add some tips and trucks
+* Add delegated properties
+* Add interoperability
+* Add sequence
+* Add generics (be clear projections and star projections is a separate topic)
+** Add type projections
+** Add star projections
+* Add coroutines
+* Add slides for scope functions and add intermezzo regarding PLUS and MINUS
+* Add intermezzo for equality
+* Add varargs and spread
+* Add operator overloading
+* Add transformation operations
+* Add closures
+* Add lambda expressions
+* Add the principle of explicit conversion in an Intermezzo
+* Add sealed class
+* Add tip for if when
+* Upgrade the kotlin jvm version
+====
+
+.v1.0.0 (13-09-2023)
+[%collapsible]
+====
+* Add exceptions
+* Add tail recursive functions
+* Add higher-order functions
+* Add local functions
+* Add destructuring declarations
+* Add nested and inner classes
+* Add jumps and labels
+* Add extension functions
+* Add infix functions
+* Add object declaration
+* Add companion object
+* Add slides ONLY for the not null operator
+* Add loops and iterators
+* Add ranges
+* Add conditionals
+* Add collections
+* Add slides exercise and solution for abstract classes and interfaces
+* Add visibility modifiers
+* Add simple inheritance
+* Add class, data class and CONSTRUCTORS 101
+* Add properties and custom get and set
+* Add null handling
+* Add topic (without exercises) Kotlin Characteristics
+* Add topic what is kotlin
+====
+
+
