@@ -6,12 +6,11 @@
 :linkattrs:
 :imagesdir: images
 
-= Demo page
+= Docker and Kubernetes 101
 {docDate}
 
 == Pre Training
-.Prerequisites
-* Installed IntelliJ IDEA with Kotlin 1.8+ support
+
 
 .Pomodoro technique modified for this days
 * 15 minutes theory, demo or exercise
