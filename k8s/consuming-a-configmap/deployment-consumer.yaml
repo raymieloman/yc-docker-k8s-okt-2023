@@ -24,6 +24,12 @@ spec:
              name: myconfigmap
              key: username
              optional: false
+        - name: password
+          valueFrom:
+           configMapKeyRef:
+             name: myconfigmap
+             key: password
+             optional: false
         name: nginx
         ports:
         - containerPort: 80
